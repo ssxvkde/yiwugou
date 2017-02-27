@@ -1,0 +1,103 @@
+body,html,p,ul,li,input,form,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+ul{
+	list-style: none;
+}
+
+
+/*******1、头部***************/
+#header{
+	width: 100%;
+}
+#header .header-cont{
+	width: 950px;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid blue;
+}
+
+/*头部左边*/
+#header .header-l{
+	width: 480px;
+	height: 30px;
+	float: left;
+}
+#header .header-l li{
+	float: left;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #868686;
+}
+#header a:hover{
+	text-decoration: underline
+}
+#header .header-l li a{
+	color: #868686;
+	margin: 0 20px;
+	display: inline-block;
+}
+#header .header-l .liBg{
+	background: url(../img/header-1.png) no-repeat 7px center;
+}
+#header .header-l li span{
+	display: inline-block;
+	height: 16px;
+	width: 22px;
+}
+
+
+/*头部右边*/
+#header .header-r{
+	width: 350px;
+	height: 30px;
+	float: right;
+}
+#header .header-r li{
+	float: left;
+	font-size: 14px;
+	color: #868686;
+	padding: 0 15px 0 0;
+	margin-top:5px ;
+}
+#header .header-r .shop{
+	padding-left: 30px;
+	background: url(../img/header-3.png) no-repeat 5px center;
+}
+#header .header-r li a{
+	font-size: 14px;
+	color: #868686;
+	margin-right: 10px;
+}
+#header .header-r .language{
+	width:60px;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	border: 1px solid gray;
+	background: url(../img/arrow.png) no-repeat 45px center;
+}
+#header .header-r .language ul{
+	width: 60px;
+	border: 1px solod gray;
+}
+#header .header-r .language a{
+	margin: 0;
+}
+#header .header-r .language li{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#header .header-r .language li a{
+	margin: 0 5px;
+}
+
