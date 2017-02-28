@@ -9,6 +9,7 @@ img{
 	display: block;
 	border: 0;
 }
+
 ul{
 	list-style: none;
 }
@@ -25,12 +26,12 @@ ul{
 /*******1、头部***************/
 #header{
 	width: 100%;
+	border-bottom: 1px solid cornflowerblue;
 }
 #header .header-cont{
 	width: 950px;
 	height: 30px;
 	margin: 0 auto;
-	border-bottom: 1px solid blue;
 }
 
 /*头部左边*/
@@ -65,7 +66,7 @@ ul{
 
 /*头部右边*/
 #header .header-r{
-	width: 350px;
+	width: 390px;
 	height: 30px;
 	float: right;
 }
@@ -73,8 +74,9 @@ ul{
 	float: left;
 	font-size: 14px;
 	color: #868686;
-	padding: 0 15px 0 0;
+	padding: 0 15px 0;
 	margin-top:5px ;
+	text-align: center;
 }
 #header .header-r .shop{
 	padding-left: 30px;
@@ -85,6 +87,63 @@ ul{
 	color: #868686;
 	margin-right: 10px;
 }
+#header .header-r .serve{
+	position: relative;
+}
+#header .header-r .help{
+	width: 190px;
+	height: 120px;
+	position: absolute;
+	left: -105px;
+	top: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+	background: antiquewhite;
+	display: none;
+}
+#header .header-r .help ul{
+	width: 190px;
+	height: 120px;
+}
+#header .header-r .help ul li{
+	width: 150px;
+	float: left;
+}
+#header .header-r .help h3{
+	line-height: 40px;
+	border-bottom: 1px dashed cornflowerblue;
+}
+#header .header-r .help h3 a{
+	font-size: 14px;
+	margin: 5px;
+}
+#header .header-r .help h3 a:hover{
+	color: #ff6600;
+}
+#header .header-r .help .call{
+	float: left;
+	width: 17px;
+	height: 40px;	
+}
+#header .header-r .help .call span{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-top: 10px;
+	background: url(../img/indexicon.png) no-repeat 0 -302px;
+}
+#header .header-r .help p{
+	float: left;
+	width: 120px;
+	font-size: 13px;
+}
+#header .header-r .help .emali{
+	height: 14px;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-left: 10px;
+	background:url(../img/indexicon.png) no-repeat 0 -322px ;
+}
 #header .header-r .language{
 	width:60px;
 	height: 20px;
@@ -93,10 +152,10 @@ ul{
 	border: 1px solid gray;
 	background: url(../img/arrow.png) no-repeat 45px center;
 }
+
 #header .header-r .language ul{
 	width: 60px;
 	height: 100px;
-	/*border: 1px solid gray;*/
 }
 #header .header-r .language a{
 	margin: 0;
