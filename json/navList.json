@@ -1,0 +1,56 @@
+[
+	{
+		"title": "义乌国际商贸城一区",
+		"typeName": [
+			{
+				"name": "玩具"
+			}, {
+				"name": "珠宝首饰"
+			}, {
+				"name": "装饰工艺"
+			}, {
+				"name": "仿真花"
+			}, {
+				"name": "相框"
+			}
+		],
+		"goodsList": [
+			{
+				"goodsTitle": "一层",
+				"goodsShop": [
+					{
+						"shopName": "玩具"
+					}, {
+						"shopName": "花类"
+					}, {
+						"shopName": "花类配件"
+					}, {
+						"shopName": "东埔房"
+					}
+				]
+			}
+		]
+	}, 
+	{
+		"title": "义乌国际商贸城一区东",
+		"typeName": [
+			{
+				"name": "饰品配件"
+			}, {
+				"name": "饰品"
+			}
+		],
+		"goodsList": [
+			{
+				"goodsTitle": "二层",
+				"goodsShop": [
+					{
+						"shopName": "饰品配件"
+					}, {
+						"shopName": "饰品"
+					}
+				]
+			}
+		]
+	}
+]

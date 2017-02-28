@@ -8,6 +8,7 @@
 		<link href="css/base.css" type="text/css" rel="stylesheet" />
 		<script type="text/javascript" src="jq/jquery-1.11.1.js" ></script>
 		<script type="text/javascript" src="js/hover.js" ></script>
+		<script type="text/javascript" src="js/navList.js" ></script>
 	</head>
 
 	<body>
@@ -55,15 +56,15 @@
 							</div>
 						</li>
 						<li>
-							<span class="language">
-								<ul>
-									<li> <a href="#">中文</a> </li>
-									<li style="background: white;"> <a href="#">English</a> </li>
-									<li> <a href="#">Russian</a> </li>
-									<li> <a href="#">Spanish</a> </li>
-									<li> <a href="#">French</a> </li>
-								</ul>
-							</span>
+							<div class="language">
+									<ul>
+										<li> <a href="#">中文</a> </li>
+										<li> <a href="#">English</a> </li>
+										<li> <a href="#">Russian</a> </li>
+										<li> <a href="#">Spanish</a> </li>
+										<li> <a href="#">French</a> </li>
+									</ul>
+							</div>
 
 						</li>
 					</ul>
@@ -123,11 +124,13 @@
 				<div class="find">
 					<div class="find-cont">
 						<span></span>
-						<ul>
-							<li><a href="#">搜全部</a></li>
-							<li><a href="#">搜商品</a></li>
-							<li><a href="#">搜店铺</a></li>
-						</ul>
+						<div>
+							<ul>
+								<li><a href="#">搜全部</a></li>
+								<li><a href="#">搜商品</a></li>
+								<li><a href="#">搜店铺</a></li>
+							</ul>
+						</div>
 						
 						<input type="text" class="text"/>
 						<a href="#"></a>
@@ -145,6 +148,74 @@
 							<a href="#"> <span></span>排行榜</a>
 						</li>
 					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--3、导航-->
+		<div id="nav">
+			<div class="nav-cont">
+				<ul>
+					<li class="home"><a href="index.html">首页</a></li>
+					<li class="commodity">
+						<a href="#">商铺商品</a> <span></span>
+						
+						<!--分类菜单-->
+						<ul class="menu">
+							<!--<li>
+								<h3>义乌国际商贸城一区 <b> > </b></h3>
+								<a href="#">玩具</a>
+								<a href="#">珠宝首饰</a>
+								<a href="#">仿真花</a>
+								<a href="#">装饰工艺</a>
+								<a href="#">相框</a>
+							</li>
+							<li>
+								<h3>义乌国际商贸城一区东 <b> > </b></h3>
+								<a href="#">饰品配件</a>
+								<a href="#">饰品</a>
+
+							</li>-->
+						</ul>
+						
+						<!--二级菜单-->
+						<div class="secMenu">
+							<!--<ul class="goods-list">
+								<li>
+									<p class="title">一层</p>
+									<span class="shops">
+										<a href="#">玩具</a>
+										<a href="#">花类</a>
+										<a href="#">花类配件</a>
+										<a href="#">东埔房</a>
+									</span>
+								</li>
+								<li>
+									<p class="title">二层</p>
+									<span class="shops">
+										<a href="#">饰品配件</a>
+										<a href="#">饰品</a>
+									</span>
+								</li>
+							</ul>-->
+						</div>
+					</li>
+					<li class="nav-li"><a href="#">巨便宜</a></li>
+					<li class="nav-li"><a href="#">论坛</a></li>
+				</ul>
+				
+				<div class="nav-r">
+					<a href="#">众筹</a>
+					<a href="#">爱进口</a>
+					<a href="#">招聘</a>
+					<a href="#">采购</a>
+					<a href="#">投诉经理</a>
+					<a href="#">经侦</a>
+					<a href="#">转租转让</a>
+					<a href="#">展会</a>
+					<a href="#">市场地图</a>
+					<a href="#">外贸服务</a>
+					<a href="#">商铺服务</a>
 				</div>
 			</div>
 		</div>
