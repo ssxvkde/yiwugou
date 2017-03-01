@@ -20,10 +20,10 @@ $.ajax({
 			
 			//二级菜单
 			var ul = $('<ul></ul>').addClass('goods-list').appendTo($('.secMenu'));
-			var li = $('<li></li>').appendTo(ul);
 			
 			$(_value.goodsList).each(function(_num1,_title){
 //				console.log(_title.goodsTitle);
+				var li = $('<li></li>').appendTo(ul);
 				var p = $('<p></p>').addClass('title').html(_title.goodsTitle).appendTo(li);
 				var span = $('<span></span>').addClass('shops').appendTo(li);
 
