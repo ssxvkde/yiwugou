@@ -662,3 +662,297 @@
 	width: 240px;
 	height: 41px;	
 }
+
+/*轮播图底部*/
+#carousel .carousel-b{
+	width: 950px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+}
+#carousel .carousel-b .section1{
+	float: left;
+}
+#carousel .carousel-b .section1 a{
+	color: #444444;
+	margin: 0 5px;
+}
+#carousel .carousel-b .section1 a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+#carousel .carousel-b .section1 span{
+	font-size: 12px;
+	padding-left: 5px;
+	border-left: 1px solid black;
+}
+#carousel .carousel-b .section2{
+	float: right;
+}
+#carousel .carousel-b .section2 a{
+	font-size: 12px;
+	color: black;
+}
+#carousel .carousel-b .section2{
+	width: 240px;
+}
+#carousel .carousel-b .section2 a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+#carousel .carousel-b .section2 .al{
+	float: left;
+}
+#carousel .carousel-b .section2 .ar{
+	float: right;
+	padding-left: 20px;
+	position: relative;
+}
+#carousel .carousel-b .section2 .ar span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/indexicon.png) no-repeat 0 -168px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+/*5、主题*/
+#main{
+	width: 100%;
+}
+#main .main-cont{
+	width: 950px;
+	margin: 0 auto;
+	border-bottom: 1px solid #00BFFF;
+}
+
+/*左边部分*/
+#main .main-cont .main-sec1{
+	float: left;
+	width: 700px;
+}
+#main .main-cont .main-sec1 li{
+	width: 700px;
+	height: 125px;
+	border-top: 1px solid #00BFFF;
+	padding: 5px 0;
+}
+#main .main-cont .main-sec1 li .secImg{
+	width: 230px;
+	height: 130px;
+	float: left;
+}
+
+#main .main-cont .main-sec1 li .secImg span a{
+	font-size: 14px;
+	color: #444444;
+}
+#main .main-cont .main-sec1 li .secImg span a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+#main .main-cont .main-sec1 li .secMes{
+	float: right;
+	width: 460px;
+}
+#main .main-cont .main-sec1 li .secMes p{
+	line-height: 25px;
+	color: #ff6600;
+}
+#main .main-cont .main-sec1 li .secMes p a{
+	font-size: 14px;
+	color: black;
+	margin: 0 5px;
+}
+#main .main-cont .main-sec1 li .secMes p a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*右边部分*/
+#main .main-cont .main-sec2{
+	width: 240px;
+	float: right;
+	background: #f6f6f6;
+}
+#main .main-cont .main-sec2 a{
+	float: left;
+	margin: 5px;
+}
+
+
+/***6、商品展示*******/
+#exhibition{
+	width: 100%;
+}
+#exhibition .exhibition-cont{
+	width: 950px;
+	margin: 0 auto;
+}
+
+/*商品展示第一部分*/
+#exhibition .exhibition-cont .section1{
+	border: 1px solid #dfdfdf;
+	margin-top: 10px;
+}
+#exhibition .exhibition-cont .section1 p{
+	width: 930px;
+	line-height: 40px;
+	float: left;
+	padding-left: 20px;
+}
+#exhibition .exhibition-cont .section1 p b{
+	float: left;
+	font-size: 14px;
+	color: #464646;
+}
+#exhibition .exhibition-cont .section1 p span{
+	float: left;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 10px;
+}
+#exhibition .exhibition-cont .section1 p a{
+	float: right;
+	padding-left: 20px;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #999999;
+	position: relative;
+}
+#exhibition .exhibition-cont .section1 p a span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/indexicon.png) no-repeat 0 -142px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+#exhibition .exhibition-cont .sec1-cont{
+	float: left;
+} 
+#exhibition .exhibition-cont .sec1-cont li img{
+	display: block;
+	width: 169px;
+	height: 130px;
+	border: 0;
+}
+#exhibition .exhibition-cont .sec1-cont li{
+	float: left;
+	width: 169px;
+	margin: 0 10px;
+}
+#exhibition .exhibition-cont .sec1-cont li p{
+	width: 169px;
+	font-size: 14px;
+	padding: 0;
+}
+#exhibition .exhibition-cont .sec1-cont li .title a{
+	padding: 0;
+	float: left;
+	color: black;
+}
+#exhibition .exhibition-cont .sec1-cont li .title a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+#exhibition .exhibition-cont .sec1-cont li .deta{
+	line-height: 20px;
+	color: #999999;
+}
+
+/*商品展示第二部分*/
+#exhibition .section2{
+	width: 950px;
+	height: 100px;
+	margin: 10px 0;
+}
+#exhibition .section2 a{
+	float: left;
+}
+
+
+/*商品展示第三部分*/
+#exhibition .exhibition-cont .section3{
+	border: 1px solid #dfdfdf;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#exhibition .exhibition-cont .section3 p{
+	width: 930px;
+	line-height: 40px;
+	float: left;
+	padding-left: 20px;
+}
+#exhibition .exhibition-cont .section3 p b{
+	float: left;
+	font-size: 14px;
+	color: #464646;
+}
+#exhibition .exhibition-cont .section3 p span{
+	float: left;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 10px;
+}
+#exhibition .exhibition-cont .section3 p a{
+	float: right;
+	padding-left: 20px;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #999999;
+	position: relative;
+}
+#exhibition .exhibition-cont .section3 p a span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/indexicon.png) no-repeat 0 -142px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+#exhibition .exhibition-cont .section3 .sec1-cont{
+	width: 2900px;
+	height: 210px;
+	float: left;
+	position: relative;
+	left: 0;
+} 
+#exhibition .exhibition-cont .section3 .sec1-cont ul{
+	float: left;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li img{
+	display: block;
+	width: 169px;
+	height: 130px;
+	border: 0;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li{
+	float: left;
+	width: 169px;
+	margin: 0 10px;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li p{
+	width: 169px;
+	font-size: 14px;
+	padding: 0;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li .title a{
+	padding: 0;
+	float: left;
+	color: black;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li .title a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+#exhibition .exhibition-cont .section3 .sec1-cont li .deta{
+	line-height: 20px;
+	color: #999999;
+}

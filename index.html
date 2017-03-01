@@ -6,11 +6,12 @@
 		<title></title>
 		<link href="css/index.css" type="text/css" rel="stylesheet" />
 		<link href="css/base.css" type="text/css" rel="stylesheet" />
-		<script type="text/javascript" src="jq/jquery-1.11.1.js" ></script>
-		<script type="text/javascript" src="js/hover.js" ></script>
-		<script type="text/javascript" src="js/navList.js" ></script>
-		<script type="text/javascript" src="js/banner.js" ></script>
-		
+		<script type="text/javascript" src="jq/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/hover.js"></script>
+		<script type="text/javascript" src="js/navList.js"></script>
+		<script type="text/javascript" src="js/banner.js"></script>
+		<script type="text/javascript" src="js/click.js" ></script>
+		<script type="text/javascript" src="js/exhibition.js" ></script>
 	</head>
 
 	<body>
@@ -37,7 +38,7 @@
 						</li>
 						<li class="serve">
 							<a href="#">客户服务</a>
-							
+
 							<div class="help">
 								<ul>
 									<li>
@@ -59,13 +60,23 @@
 						</li>
 						<li>
 							<div class="language">
-									<ul>
-										<li> <a href="#">中文</a> </li>
-										<li> <a href="#">English</a> </li>
-										<li> <a href="#">Russian</a> </li>
-										<li> <a href="#">Spanish</a> </li>
-										<li> <a href="#">French</a> </li>
-									</ul>
+								<ul>
+									<li>
+										<a href="#">中文</a>
+									</li>
+									<li>
+										<a href="#">English</a>
+									</li>
+									<li>
+										<a href="#">Russian</a>
+									</li>
+									<li>
+										<a href="#">Spanish</a>
+									</li>
+									<li>
+										<a href="#">French</a>
+									</li>
+								</ul>
 							</div>
 
 						</li>
@@ -73,16 +84,19 @@
 				</div>
 			</div>
 		</div>
-	
+
 		<!--2、搜索-->
 		<div id="search">
 			<div class="search-cont">
-				<div class="log"> <a href="#"> <img src="img/logo.png" /> </a> </div>
-			
+				<div class="log">
+					<a href="#"> <img src="img/logo.png" /> </a>
+				</div>
+
 				<div class="market">
 					<span>分站</span>
 					<ul>
-						<li><h3>全国专业市场</h3></li>
+						<li>
+							<h3>全国专业市场</h3></li>
 						<li class="specialized">
 							<a href="#">新疆</a>
 							<a href="#">大同</a>
@@ -110,7 +124,8 @@
 							<a href="#">赣南</a>
 							<a href="#">河道</a>
 						</li>
-						<li><h3>海外市场</h3></li>
+						<li>
+							<h3>海外市场</h3></li>
 						<li class="overseas">
 							<a href="#" class="janpan">Japan</a>
 							<a href="#" class="russian">Russian</a>
@@ -118,50 +133,60 @@
 							<a href="#" class="spain">Spain</a>
 							<a href="#" class="italy">Italy</a>
 							<a href="#" class="mexico">Mexico</a>
-							<a href="#"  class="morocco">Morocco</a>
+							<a href="#" class="morocco">Morocco</a>
 						</li>
 					</ul>
 				</div>
-			
+
 				<div class="find">
 					<div class="find-cont">
 						<span></span>
 						<div>
 							<ul>
-								<li><a href="#">搜全部</a></li>
-								<li><a href="#">搜商品</a></li>
-								<li><a href="#">搜店铺</a></li>
+								<li>
+									<a href="#">搜全部</a>
+								</li>
+								<li>
+									<a href="#">搜商品</a>
+								</li>
+								<li>
+									<a href="#">搜店铺</a>
+								</li>
 							</ul>
 						</div>
-						
-						<input type="text" class="text"/>
+
+						<input type="text" class="text" />
 						<a href="#"></a>
 						<b> <a href="#">搜索</a> </b>
 					</div>
 				</div>
-				
+
 				<div class="sction4">
 					<ul>
 						<li class="logIn">
 							<a href="#"> <span></span> 登录</a>
 						</li>
-						<li class="register">|<a href="#">注册</a></li>
-						<li  class="rank">
+						<li class="register">|
+							<a href="#">注册</a>
+						</li>
+						<li class="rank">
 							<a href="#"> <span></span>排行榜</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		
+
 		<!--3、导航-->
 		<div id="nav">
 			<div class="nav-cont">
 				<ul>
-					<li class="home"><a href="index.html">首页</a></li>
+					<li class="home">
+						<a href="index.html">首页</a>
+					</li>
 					<li class="commodity">
 						<a href="#">商铺商品</a> <span></span>
-						
+
 						<!--分类菜单-->
 						<ul class="menu">
 							<!--<li>
@@ -179,7 +204,7 @@
 
 							</li>-->
 						</ul>
-						
+
 						<!--二级菜单-->
 						<div class="secMenu">
 							<!--<ul class="goods-list">
@@ -202,54 +227,102 @@
 							</ul>-->
 						</div>
 					</li>
-					<li class="nav-li"><a href="#">巨便宜</a></li>
-					<li class="nav-li"><a href="#">论坛</a></li>
+					<li class="nav-li">
+						<a href="#">巨便宜</a>
+					</li>
+					<li class="nav-li">
+						<a href="#">论坛</a>
+					</li>
 				</ul>
-				
+
 				<div class="nav-r">
 					<ul>
-						<li><a href="#">众筹</a></li>
-						<li><a href="#">爱进口</a></li>
-						<li><a href="#">招聘</a></li>
-						<li  class="buy">
+						<li>
+							<a href="#">众筹</a>
+						</li>
+						<li>
+							<a href="#">爱进口</a>
+						</li>
+						<li>
+							<a href="#">招聘</a>
+						</li>
+						<li class="buy">
 							<a href="#">采购</a>
 							<span></span>
 							<ul class="buy-cont">
-								<li><a href="#">阳光采购</a></li>
+								<li>
+									<a href="#">阳光采购</a>
+								</li>
 							</ul>
 						</li>
-						<li><a href="#">投诉经理</a></li>
-						<li><a href="#">经侦</a></li>
-						<li><a href="#">转租转让</a></li>
-						<li><a href="#">展会</a></li>
-						<li><a href="#">市场地图</a></li>
+						<li>
+							<a href="#">投诉经理</a>
+						</li>
+						<li>
+							<a href="#">经侦</a>
+						</li>
+						<li>
+							<a href="#">转租转让</a>
+						</li>
+						<li>
+							<a href="#">展会</a>
+						</li>
+						<li>
+							<a href="#">市场地图</a>
+						</li>
 						<li class="trade">
 							<a href="#">外贸服务</a>
 							<span></span>
 							<ul class="trade-cont">
-								<li> <a href="#">服务平台</a> </li>
-								<li> <a href="#">联网平台</a> </li>
-								<li> <a href="#">进出口公司</a> </li>
-								<li> <a href="#">翻译</a> </li>
-								<li> <a href="#">国际货运</a> </li>
+								<li>
+									<a href="#">服务平台</a>
+								</li>
+								<li>
+									<a href="#">联网平台</a>
+								</li>
+								<li>
+									<a href="#">进出口公司</a>
+								</li>
+								<li>
+									<a href="#">翻译</a>
+								</li>
+								<li>
+									<a href="#">国际货运</a>
+								</li>
 							</ul>
 						</li>
 						<li class="shopServe">
 							<a href="#">商铺服务</a>
 							<span></span>
 							<ul class="shopServe-cont">
-								<li><a href="#">泊车位办理</a></li>
-								<li><a href="#">金融服务</a></li>
-								<li><a href="#">第三方服务</a></li>
-								<li><a href="#">商铺代运营</a></li>
-								<li><a href="#">义乌购执照</a></li>
-								<li><a href="#">直通物流</a></li>
-								<li><a href="#">商标注册</a></li>
-								<li><a href="#">更多>></a></li>
+								<li>
+									<a href="#">泊车位办理</a>
+								</li>
+								<li>
+									<a href="#">金融服务</a>
+								</li>
+								<li>
+									<a href="#">第三方服务</a>
+								</li>
+								<li>
+									<a href="#">商铺代运营</a>
+								</li>
+								<li>
+									<a href="#">义乌购执照</a>
+								</li>
+								<li>
+									<a href="#">直通物流</a>
+								</li>
+								<li>
+									<a href="#">商标注册</a>
+								</li>
+								<li>
+									<a href="#">更多>></a>
+								</li>
 							</ul>
 						</li>
 					</ul>
-					</div>
+				</div>
 			</div>
 		</div>
 
@@ -260,24 +333,32 @@
 					<div class="section1">
 						<h3>交易动态</h3>
 						<ul>
-							<li><a href="#">123123123123</a></li>
-							<li><a href="#">456456456456</a></li>
-							<li><a href="#">78978979789</a></li>
-							<li><a href="#">000000000</a></li>
+							<li>
+								<a href="#">123123123123</a>
+							</li>
+							<li>
+								<a href="#">456456456456</a>
+							</li>
+							<li>
+								<a href="#">78978979789</a>
+							</li>
+							<li>
+								<a href="#">000000000</a>
+							</li>
 						</ul>
 					</div>
 					<div class="section2">
-						<p> 
-							<a href="#">[常见问题]</a> 
-							<a href="#">义乌购商铺分值怎么算</a> 
+						<p>
+							<a href="#">[常见问题]</a>
+							<a href="#">义乌购商铺分值怎么算</a>
 						</p>
-						<p> 
-							<a href="#">[常见问题]</a> 
-							<a href="#">买家如何完善个人资料</a> 
+						<p>
+							<a href="#">[常见问题]</a>
+							<a href="#">买家如何完善个人资料</a>
 						</p>
-						<p> 
-							<a href="#">[常见问题]</a> 
-							<a href="#">搜不到要的商品怎么办</a> 
+						<p>
+							<a href="#">[常见问题]</a>
+							<a href="#">搜不到要的商品怎么办</a>
 						</p>
 					</div>
 					<div class="section3">
@@ -285,44 +366,427 @@
 						<span class="credit"> <a href="#">商铺信用等级</a> </span>
 					</div>
 				</div>
-				
-			<!-- 轮播图 -->
-			<div class="banner">
-				<ul class="banner-img">
-					<li> <img src="img/01.jpg" /> </li>
-					<li> <img src="img/02.jpg" /> </li>
-					<li> <img src="img/03.jpg" /> </li>
-				</ul>
-				<div class="page">
+
+				<!-- 轮播图 -->
+				<div class="banner">
+					<ul class="banner-img">
+						<li> <img src="img/01.jpg" /> </li>
+						<li> <img src="img/02.jpg" /> </li>
+						<li> <img src="img/03.jpg" /> </li>
+					</ul>
+					<div class="page">
+						<p>
+							<a href="#" class="active">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="bazaar">
+					<div class="bazaar-t">
+						<h3>市场动态</h3>
+						<p>
+							<a href="#">[通告]</a>
+							<a href="#">一区东扩市场9月10日起招商</a>
+						</p>
+						<p>
+							<a href="#">[通知]</a>
+							<a href="#">一区东扩市场9月10日起招商</a>
+						</p>
+						<p>
+							<a href="#">[行情]</a>
+							<a href="#">一区东扩市场9月10日起招商</a>
+						</p>
+						<p>
+							<a href="#">[免费]</a>
+							<a href="#">一区东扩市场9月10日起招商</a>
+						</p>
+						<p>
+							<a href="#">[招聘]</a>
+							<a href="#">一区东扩市场9月10日起招商</a>
+						</p>
+						<p class="last">
+							<a href="#"> <span class="charge"></span> 话费充值 </a>
+							<a href="#"> <span class="web"></span> 网站更新 </a>
+							<a href="#"> <span class="back"></span> 反馈 </a>
+						</p>
+					</div>
+					<a href="#"><img src="img/register.jpg" /> </a>
+				</div>
+
+				<div class="carousel-b">
 					<p>
-						<a href="#" class="active">1</a>
-						<a href="#">2</a>
-						<a href="#">3</a>
+						<div class="section1">
+							<a href="#">商铺商品</a>
+							<span>商铺数：55451</span>
+						</div>
+						<div class="section2">
+							<a href="#" class="al">义品牌</a>
+							<a href="#" class="ar"><span></span>中国梦专区</a>
+						</div>
 					</p>
+				</div>
+
+			</div>
+		</div>
+		
+			
+		<!--5、主体-->
+		<div id="main">
+			<div class="main-cont clearfix">
+				<div class="main-sec1 clearfix">
+					<ul>
+						<li>
+							<div class="secImg">
+								<a href="#"> <img src="img/secImg-1.png" /> </a>
+								<span><a href="#">义乌国际商贸城一区</a></span>
+							</div>
+							<div class="secMes">
+								<p>1F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>2F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>3F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>4F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="secImg">
+								<a href="#"> <img src="img/secImg-2.png" /> </a>
+								<span><a href="#">义乌国际商贸城一区</a></span>
+							</div>
+							<div class="secMes">
+								<p>1F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>2F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>3F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>4F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="secImg">
+								<a href="#"> <img src="img/secImg-3.png" /> </a>
+								<span><a href="#">义乌国际商贸城一区</a></span>
+							</div>
+							<div class="secMes">
+								<p>1F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>2F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>3F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>4F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="secImg">
+								<a href="#"> <img src="img/secImg-4.png" /> </a>
+								<span><a href="#">义乌国际商贸城一区</a></span>
+							</div>
+							<div class="secMes">
+								<p>1F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>2F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>3F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+								<p>4F
+									<a href="#">玩具</a>
+									<a href="#">花类</a>
+									<a href="#">花类配件</a>
+									<a href="#">东埔房</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="main-sec2 clearfix">
+					<a href="#"> <img src="img/mainImg-1.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-2.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-3.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-4.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-5.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-1.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-2.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-3.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-4.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-5.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-1.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-2.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-3.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-4.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-5.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-1.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-2.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-3.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-4.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-5.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-1.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-2.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-3.jpg" /> </a>
+					<a href="#"> <img src="img/mainImg-4.jpg" /> </a>
+				</div>
+			</div>
+		</div>
+
+		<!--6、商品展示-->
+		<div id="exhibition">
+			<div class="exhibition-cont">
+				<div class="section1 clearfix">
+				<p>
+					<b>逛一逛</b>
+					<span>360°全景带您身临其境逛市场</span>
+					<a href="#" class="changeShop"><span></span>换一换</a>
+				</p>
+				
+				<div class="sec1-cont clearfix">
+					<ul class="clearfix">
+						<li>
+							<a href="#"> <img src="img/exhibition-1.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷1</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-2.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝1</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-3.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司1</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-4.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司1</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-5.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具1</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
+					<ul class="clearfix"  style="display: none;">
+						<li>
+							<a href="#"> <img src="img/exhibition-1.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷2</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-2.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝2</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-3.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司2</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-4.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司2</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-5.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具2</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
+					<ul class="clearfix"  style="display: none;">
+						<li>
+							<a href="#"> <img src="img/exhibition-1.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷3</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-2.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝3</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-3.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司3</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-4.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司3</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-5.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具3</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
 				</div>
 			</div>
 			
-			<div class="bazaar">
-				<div class="bazaar-t">
-					<h3>市场动态</h3>
-					<p> <a href="#">[通告]</a> <a href="#">一区东扩市场9月10日起招商</a> </p>
-					<p> <a href="#">[通知]</a> <a href="#">一区东扩市场9月10日起招商</a> </p>
-					<p> <a href="#">[行情]</a> <a href="#">一区东扩市场9月10日起招商</a> </p>
-					<p> <a href="#">[免费]</a> <a href="#">一区东扩市场9月10日起招商</a> </p>
-					<p> <a href="#">[招聘]</a> <a href="#">一区东扩市场9月10日起招商</a> </p>
-					<p class="last">
-						<a href="#"> <span class="charge"></span> 话费充值 </a>
-						<a href="#"> <span class="web"></span> 网站更新 </a>
-						<a href="#"> <span class="back"></span> 反馈 </a>
-					</p>
-				</div>
-				<a href="#"><img src="img/register.jpg" /> </a>
+			<div class="section2">
+				<a href="#" style="margin-right: 10px;"> <img src="img/exhibition-21.jpg" /> </a>
+				<a href="#"> <img src="img/exhibition-22.jpg" /> </a>
 			</div>
-
+			
+			<div class="section3 clearfix">
+				<p>
+					<b>巨便宜</b>
+					<a href="#">更多</a>
+				</p>
+				
+				<div class="sec1-cont clearfix">
+					<ul class="clearfix">
+						<li>
+							<a href="#"> <img src="img/exhibition-1.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷1</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-2.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝1</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-3.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司1</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-4.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司1</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-5.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具1</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<a href="#"> <img src="img/exhibition-31.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷2</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-32.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝2</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-33.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司2</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-34.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司2</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-35.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具2</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<a href="#"> <img src="img/exhibition-36.jpg" /> </a>
+							<p class="title"> <a href="#">巴克星辰陶瓷3</a> </p>
+							<p class="deta">义乌国际商贸城一区13门3楼5街8016A,8016B</p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-37.jpg" /> </a>
+							<p class="title"> <a href="#">荣鑫珠宝3</a> </p>
+							<p class="deta">义乌国际商贸城一区13门2楼6街5070,5071 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-38.jpg" /> </a>
+							<p class="title"> <a href="#">天颂专用车辆有限公司3</a> </p>
+							<p class="deta">义乌国际商贸城二区38门2楼10街14728 </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-39.jpg" /> </a>
+							<p class="title"> <a href="#">义乌意彩制袋有限公司3</a> </p>
+							<p class="deta">义乌国际商贸城二区27门1楼1街10711B </p>
+						</li>
+						<li>
+							<a href="#"> <img src="img/exhibition-40.jpg" /> </a>
+							<p class="title"> <a href="#">义乌星智文具3</a> </p>
+							<p class="deta">义乌国际商贸城三区55门2楼5街24650 </p>
+						</li>
+					</ul>
+			</div>
+			</div>
 		</div>
-		
-		
-
 	</body>
 
 </html>
