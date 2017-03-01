@@ -291,6 +291,7 @@
 	left: -52px;
 	top: 40px;
 	display: none;
+	background: blanchedalmond;
 }
 #nav .nav-cont .menu li{
 	width: 220px;
@@ -321,6 +322,7 @@
 	left: 199px;
 	top: 40px;
 	display: none;
+	background: blanchedalmond;
 }
 #nav .nav-cont .secMenu li{
 	width: 260px;
@@ -483,4 +485,180 @@
 	height: 25px;
 	line-height: 25px;
 	font-size: 11px;
+}
+
+/*4、轮播图*/
+#carousel{
+	width: 100%;
+}
+#carousel .carousel-cont{
+	padding-top: 10px;
+	width: 950px;
+	height: 260px;
+	margin: 0 auto;
+}
+/*第一块第一部分*/
+#carousel .transaction{
+	width: 228px;
+	height: 218px;
+	float: left;
+	border: 1px solid gray;
+}
+#carousel .transaction .section1{
+	width: 220px;
+	height: 110px;
+	padding: 0 4px;
+}
+#carousel .transaction .section1 h3{
+	line-height: 22px;
+	font-size: 12px;
+	color: #464646;
+}
+#carousel .transaction .section1 li{
+	width: 220px;
+	line-height: 20px;
+}
+#carousel .transaction .section1 li a{
+	font-size: 12px;
+	color: #464646;
+}
+#carousel .transaction .section1 li a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+/*第一块第二部分*/
+#carousel .transaction .section2{
+	width: 218px;
+	height: 68px;
+	padding-left: 10px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+#carousel .transaction .section2 p a{
+	font-size: 12px;
+	color: #464646;
+}
+#carousel .transaction .section2 p a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*第一块第三部分*/
+#carousel .transaction .section3{
+	width: 228px;
+	height: 40px;
+}
+#carousel .transaction .section3 span{
+	display: inline-block;
+	/*margin-top: 10px;*/
+	padding-left: 20px;
+	margin: 10px 5px 0;
+}
+#carousel .transaction .section3 span a{
+	font-size: 13px;
+	color: #464646;
+}
+#carousel .transaction .section3 .credit{
+	background: url(../img/indexicon.png) no-repeat 0 -70px;
+}
+#carousel .transaction .section3 .guarantee{
+	background: url(../img/indexicon.png) no-repeat 0 -90px;
+}
+
+
+/* 横幅*/
+#carousel .banner{
+	width: 460px;
+	height: 220px;
+	float: left;
+	margin: 0 8px;
+	overflow: hidden;
+	position: relative;
+}
+#carousel .banner ul{
+	width: 1400px;
+	height: 220px;
+}
+}
+#carousel .banner li img{
+	display: inline-block;
+	width: 460px;
+	height: 220px;
+	border: 0;
+}
+#carousel .banner li{
+	width: 460px;
+	height: 220px;
+	float: left;
+}
+#carousel .banner .banner-img{
+	position: relative;
+	left: 0;
+}
+#carousel .banner .page{
+	width: 450px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#carousel .banner .page p{
+	text-align: right;
+}
+#carousel .banner .page p a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: bisque;
+	color: black;
+	text-align: center;
+}
+#carousel .banner .page p .active{
+	background: red;
+	color: white;
+}
+
+/*第三块上*/
+#carousel .bazaar{
+	width: 240px;
+	height: 220px;
+	float: left;
+	border: 1px solid gray;
+}
+#carousel .bazaar h3{
+	line-height: 22px;
+	font-size: 12px;
+	color: #464646;
+	padding-left: 10px;
+}
+#carousel .bazaar p{
+	line-height: 25px;
+	padding-left: 10px;
+}
+#carousel .bazaar p a{
+	font-size: 13px;
+	color: #464646;
+}
+
+#carousel .bazaar .last a:hover{
+	color: #FF6600;
+}
+#carousel .bazaar span{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+}
+#carousel .bazaar .charge{
+	background: url(../img/indexicon.png) no-repeat -462px -139px;
+}
+#carousel .bazaar .web{
+	background: url(../img/indexicon.png) no-repeat -462px -160px;
+}
+#carousel .bazaar .back{
+	background: url(../img/indexicon.png) no-repeat -463px -182px;
+}
+
+#carousel .bazaar a img{
+	display: block;
+	width: 240px;
+	height: 41px;	
 }
