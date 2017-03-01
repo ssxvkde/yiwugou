@@ -26,7 +26,7 @@ ul{
 /*******1、头部***************/
 #header{
 	width: 100%;
-	border-bottom: 1px solid cornflowerblue;
+	border-bottom: 1px solid #eeeeee;
 }
 #header .header-cont{
 	width: 950px;
