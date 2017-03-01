@@ -61,5 +61,24 @@ $(function(){
 		$('.commodity .secMenu').css('display', 'none');
 	})
 	
+	//导航采购
+	$('.buy').mouseover(function(){
+		$('.buy-cont').show();
+	}).mouseout(function(){
+		$('.buy-cont').hide();
+	})
 	
+	//导航外贸服务
+	$('.trade').mouseover(function(){
+		$('.trade-cont').show();
+	}).mouseout(function(){
+		$('.trade-cont').hide();
+	})
+	
+	//导航商铺服务
+	$('.shopServe').mouseover(function(){
+		$('.shopServe-cont').show();
+	}).mouseout(function(){
+		$('.shopServe-cont').hide();
+	})
 })

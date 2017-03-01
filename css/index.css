@@ -349,6 +349,138 @@
 	background: deepskyblue;
 	text-decoration: underline;
 }
+
+/*导航右*/
 #nav .nav-cont .nav-r{
 	float: right;
+	position: relative;
+}
+#nav .nav-cont .nav-r li{
+	height: 20px;
+	padding: 10px 2px;
+}
+#nav .nav-cont .nav-r a{
+	font-size: 14px;
+	color: black;
+	margin: 0;
+}
+#nav .nav-cont .nav-r a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*采购*/
+#nav .nav-cont .nav-r .buy span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../img/indexicon.png) no-repeat -103px -452px;
+}
+#nav .nav-cont .nav-r .buy{
+	position: relative;
+}
+#nav .nav-cont .nav-r .buy:hover{
+	background: white;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+#nav .nav-cont .nav-r .buy .buy-cont{
+	width: 47px;
+	position: absolute;
+	left: -1px;
+	top: 30px;
+	display: none;
+}
+#nav .nav-cont .nav-r .buy .buy-cont li{
+	width: 47px;
+	height: 25px;
+	border: 1px solid gray;
+	border-top:0;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+#nav .nav-cont .nav-r .buy .buy-cont li a{
+	display: block;
+	width: 47px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 11px;
+}
+
+/*外贸服务*/
+#nav .nav-cont .nav-r .trade span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../img/indexicon.png) no-repeat -103px -452px;
+}
+#nav .nav-cont .nav-r .trade{
+	position: relative;
+}
+#nav .nav-cont .nav-r .trade:hover{
+	background: white;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+#nav .nav-cont .nav-r .trade .trade-cont{
+	width: 75px;
+	border: 1px solid gray;
+	border-top:0;
+	position: absolute;
+	left: -1px;
+	top: 30px;
+	display: none;
+}
+#nav .nav-cont .nav-r .trade .trade-cont li{
+	width: 75px;
+	height: 25px;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+#nav .nav-cont .nav-r .trade .trade-cont li a{
+	display: block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 11px;
+}
+/*商铺服务*/
+#nav .nav-cont .nav-r .shopServe span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../img/indexicon.png) no-repeat -103px -452px;
+}
+#nav .nav-cont .nav-r .shopServe {
+	position: relative;
+}
+#nav .nav-cont .nav-r .shopServe:hover{
+	background: white;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+#nav .nav-cont .nav-r .shopServe .shopServe-cont{
+	width: 75px;
+	border: 1px solid gray;
+	border-top:0;
+	position: absolute;
+	left: -1px;
+	top: 30px;
+	display: none;
+}
+#nav .nav-cont .nav-r .shopServe .shopServe-cont li{
+	width: 75px;
+	height: 25px;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+#nav .nav-cont .nav-r .shopServe .shopServe-cont li a{
+	display: block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 11px;
 }
