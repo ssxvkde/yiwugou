@@ -1,0 +1,140 @@
+body,html,p,ul,li,input,form,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+
+ul{
+	list-style: none;
+}
+i,em{
+	font-style: normal;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/***1、头部****/
+#header{
+	width: 100%;
+}
+#header .header-cont{
+	width: 990px;
+	height: 70px;
+	margin: 0 auto;
+}
+#header .header-cont img{
+	float: left;
+}
+
+/***2、导航****/
+#nav{
+	width: 100%;
+}
+#nav .nav-cont{
+	width: 990px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px 1px #6495ED;
+}
+#nav .nav-cont ul{
+	width: 990px;
+	background: #f0f2f5;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+#nav .nav-cont .li1{
+	background: #FF6600;
+	border: 1px solid #FF6600;
+	border-radius: 8px 0 0 8px;
+}
+#nav .nav-cont li{
+	float: left;
+	padding: 13px 25px;
+	border-right: 1px solid #e3e4e8;
+}
+#nav .nav-cont li a{
+	color: #666666;
+}
+#nav .nav-cont li a:hover{
+	text-decoration: underline;
+}
+#nav .nav-cont .zx-cont{
+	width: 121px;
+	height: 100px;
+	background: url(../img/zhengxin-bg.png) no-repeat left bottom;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	display: none;
+}
+#nav .zhengxin{
+	position: relative;
+}
+
+#nav .nav-cont .zx-cont a{
+	display: block;
+}
+#nav .nav-cont .zx-cont a:hover{
+	color: #FF6600;
+}
+#nav .zx-cont .zx-1{
+	position: relative;
+	left: 25px;
+	top: 30px;
+}
+#nav .zx-cont .zx-2{
+	position: relative;
+	left: 25px;
+	top: 48px;
+}
+
+/***3、主体*****/
+#main{
+	width: 100%;
+}
+#main .main-cont{
+	width: 990px;
+	margin: 0 auto;
+}
+#main .main-l{
+	float: left;
+}
+#main .main-r{
+	float: right;
+}
+
+
+/***4、链接****/
+/*5、底部*/
+#bottom{
+	width: 100%;
+}
+#bottom .bottom-cont{
+	width: 950px;
+	margin: 10px auto 0;
+	border-top: 1px solid #dbdbdb;
+}
+#bottom .bottom-cont p{
+	line-height: 46px;
+	font-size: 13px;
+	text-align: center;
+	color: #444444;
+}
+#bottom .bottom-cont p a{
+	color: #444444;
+}
+#bottom .bottom-cont p a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}

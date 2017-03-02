@@ -96,5 +96,18 @@ $(function(){
 		$('.bazaar .last span').eq(0).css('background-position','-462px -139px');
 		$('.bazaar .last span').eq(1).css('background-position','-462px -160px');
 		$('.bazaar .last span').eq(2).css('background-position','-463px -182px');
+	});
+	
+
+	//信用平台导航诚信
+	$('.nav-cont .zhengxin').mouseover(function(){
+		$('.zx-cont').css('display', 'block').css('z-index', '100');
+	}).mouseout(function(){
+		$('.zx-cont').mouseover(function(){
+			$('.zx-cont').css('display', 'block').css('z-index', '100');
+		}).mouseout(function(){
+			$('.zx-cont').css('display', 'none').css('z-index', '0');
+		})
+		$('.zx-cont').css('display', 'none').css('z-index', '0');
 	})
 })
