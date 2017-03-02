@@ -1,0 +1,163 @@
+#question{
+	width: 100%;
+}
+#question .question-cont a:hover{
+	text-decoration: underline;
+}
+
+/*常见问题*/
+#question .question-cont{
+	width: 950px;
+	margin: 0 auto;
+}
+#question .question-cont p{
+	line-height: 30px;
+	width: 950px;
+}
+#question .question-cont p a{
+	font-size: 14px;
+}
+#question .question-cont .usual{
+	width: 680px;
+	height: 120px;
+	float: left;
+	border: 1px solid #dbdbdb;
+}
+#question .question-cont .usual p{
+	width: 680px;
+	height: 30px;
+	line-height: 30px;
+	background: #e8e8e8;
+}
+#question .question-cont .usual p span{
+	float: left;
+	width: 10px;
+	height: 30px;
+	margin-right: 5px;
+	background: #ff6600;
+}
+#question .question-cont .usual p b{
+	float: left;
+}
+#question .question-cont .usual p a{
+	float: right;
+	font-size: 12px;
+	margin-right: 15px;
+}
+#question .question-cont .usual ul{
+	padding-top: 10px;
+}
+#question .question-cont .usual li{
+	width: 300px;
+	float: left;
+	line-height: 24px;
+	margin-left: 40px;
+	list-style: disc;
+	color: #989898;
+}
+#question .question-cont .usual li a{
+	font-size: 14px;
+	color: #3366cc;
+}
+#question .question-cont .usual li a:hover{
+	color: #FF6600;
+}
+
+/*服务热线*/
+#question .phone{
+	float: right;
+	width: 250px;
+	height: 115px;
+	padding: 0 5px;
+	border: 1px solid #dbdbdb;
+	border-top: 5px solid #ff6600;
+}
+#question .phone h3{
+	line-height: 30px;
+	color: #333333;
+	font-size: 14px;
+	padding-left: 50px;
+	background: url(../img/phone.png) no-repeat 15px center;
+}
+#question .phone p{
+	width: 230px;
+	line-height: 18px;
+	color: #999999;
+	font-size: 14px;
+	padding-left: 10px;
+}
+#question .phone a{
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	width: 180px;
+	height: 30px;
+	margin: 8px 0 0 35px;
+	background: #ff6600;
+	font-size: 14px;
+}
+
+/*主体*/
+#main{
+	width: 100%;
+}
+#main .main-cont{
+	width: 950px;
+	margin: 0 auto;
+	border: 1px solid #dbdbdb;
+}
+#main .main-cont .sec-cont,ul,li{
+	float: left;
+}
+#main .main-cont ul{
+	width: 410px;
+	padding-left: 30px;
+}
+#main .main-cont .sec-cont{
+	width: 440px;
+	padding-left: 20px;
+}
+#main .main-cont .sec-cont h2{
+	width: 440px;
+	font-size: 16px;
+	line-height: 60px;
+	color: #333333;
+}
+#main .main-cont .sec-cont li{
+	width: 410px;
+	font-size: 14px;
+	color: #9c9c9c;
+	line-height: 24px;
+	list-style: disc;
+}
+#main .main-cont .sec-cont li a{
+	color: #3366cc;
+}
+#main .main-cont .sec-cont li a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+/*6、底部*/
+#bottom{
+	width: 100%;
+}
+#bottom .bottom-cont{
+	width: 950px;
+	margin: 10px auto 0;
+	border-top: 1px solid #dbdbdb;
+}
+#bottom .bottom-cont p{
+	line-height: 46px;
+	font-size: 13px;
+	text-align: center;
+	color: #444444;
+}
+#bottom .bottom-cont p a{
+	color: #444444;
+}
+#bottom .bottom-cont p a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}
