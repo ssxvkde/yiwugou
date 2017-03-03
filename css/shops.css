@@ -1,0 +1,125 @@
+/*3、主体*/
+#main .main-cont{
+	width: 950px;
+	margin: 0 auto;
+}
+.main-cont .location{
+	width: 950px;
+}
+.main-cont a{
+	font-size: 14px;
+	color: blue;
+}
+.main-cont a:hover{
+	text-decoration: underline;
+}
+
+/*sec2*/
+.main-cont .place{
+	width: 932px;
+	padding: 8px;
+	border: 1px solid #eeeeee;
+	margin: 10px 0;
+}
+.main-cont .place a{
+	float: left;
+	/*margin-right: 20px;*/
+	margin: 5px 20px 5px 0;
+}
+
+/*sec3*/
+.main-cont .choice{
+	width: 950px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.main-cont .choice .choice-l{
+	float: left;
+	background: #DFDFDF;
+}
+.main-cont .choice .choice-l a{
+	float: left;
+	padding: 8px 35px;
+	color: #444444;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	margin-bottom: -1px;
+}
+.main-cont .choice .choice-l a:hover{
+	color: #FF6600;
+	text-decoration: none;
+}
+.main-cont .choice .choice-l .active{
+	border-bottom: 1px solid white;
+	background: white;
+	color: #FF6600;
+}
+
+.main-cont .choice .choice-r{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.main-cont .choice .choice-r a{
+	padding: 0 5px;
+	font-size: 14px;
+	border: 1px solid #e5e5e5;
+	margin-left: 5px;
+}
+.main-cont .choice .choice-r a:hover{
+	text-decoration: none;
+}
+
+.main-cont .choice .choice-r span{
+	font-size: 14px;
+	color: #a599b2;
+}
+
+/*sec4*/
+.main-cont .show{
+	margin: 20px 0 10px 0;
+	font-size: 14px;
+}
+.main-cont .show .frame{
+	width: 225px;
+	height: 330px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.main-cont .show .frame span{
+	display: block;
+	padding: 8px 10px;
+	border: 1px solid #dfdfdf;
+}
+.main-cont .show .frame span img{
+	width: 205px;
+	height: 190px;
+}
+.main-cont .show .frame li{
+	color: #666666;
+	line-height: 22px;
+}
+
+
+
+/*6、底部*/
+#bottom{
+	width: 100%;
+}
+#bottom .bottom-cont{
+	width: 950px;
+	margin: 10px auto 0;
+	border-top: 1px solid #dbdbdb;
+}
+#bottom .bottom-cont p{
+	line-height: 46px;
+	font-size: 13px;
+	text-align: center;
+	color: #444444;
+}
+#bottom .bottom-cont p a{
+	color: #444444;
+}
+#bottom .bottom-cont p a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}

@@ -1,7 +1,7 @@
 $.ajax({
 	url:"../json/navList.json",
 	success:function(response){
-		console.log(response);
+//		console.log(response);
 
 		//遍历---商品分类菜单
 		$(response).each(function(_index,_value){

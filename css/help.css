@@ -104,7 +104,7 @@
 }
 #main .main-cont{
 	width: 950px;
-	margin: 0 auto;
+	margin: 10px auto 0;
 	border: 1px solid #dbdbdb;
 }
 #main .main-cont .sec-cont,ul,li{
