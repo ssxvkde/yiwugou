@@ -165,6 +165,8 @@ i,em{
 	float: right;
 	width: 270px;
 }
+
+/*sec1*/
 #main .main-r .complain{
 	border-top: 5px solid #3397da;
 	border-bottom: 5px solid #2c81ba;
@@ -180,6 +182,7 @@ i,em{
 	font-size: 18px;
 }
 
+/*sec2*/
 #main .main-r .search{
 	width: 268px;
 	height: 36px;
@@ -210,6 +213,7 @@ i,em{
 	color: white;
 }
 
+/*sec3*/
 /*共同样式common*/
 #main .main-r .common{
 	border-radius: 5px 0 0 0;
@@ -243,10 +247,141 @@ i,em{
 	text-decoration: underline;
 }
 
+/*sec4*/
+#main .main-r .list-t{
+	width: 270px;
+	border-bottom: 2px solid #e3e4e8;
+}
+#main .main-r .list-t .shopName{
+	float: left;
+	width: 130px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	margin-left: 40px;
+	font-weight: 600;
+}
+#main .main-r .list-t .score{
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	margin-left: 10px;
+	font-weight: 600;
+}
 
+/*sec5*/
+#main .main-r .shops{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #e3e4e8;
+	border-radius: 0 0 4px 4px;
+}
+#main .main-r .shops li{
+	width: 270px;
+	line-height: 20px;
+}
+#main .main-r .shops .special i{
+	background: #FF6600;
+}
+#main .main-r .shops li i{
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	margin: 0 12px;
+	background: #77afe9;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 15px;
+}
+#main .main-r .shops li a{
+	display: inline-block;
+	width: 130px;
+	font-size: 12px;
+	color: #666666;
+}
+#main .main-r .shops li span{
+	display: inline-block;
+	color: #666666;
+	font-size: 12px;
+}
+/*sec6*/
+#main .main-r .law{
+	padding-bottom: 20px;
+	border-bottom: 3px solid #e3e4e8;
+	border-radius: 3px;
+	background: #f6f6f6;
+	margin: 10px 0;
+}
+#main .main-r .law img{
+	margin: 7px 0 0 10px;
+}
+#main .main-r .law p {
+	width: 250px;
+	line-height: 20px;
+	color: #666666;
+	font-size: 12px;
+	padding-left: 10px;
+}
 
+/*sec7*/
+#main .main-r .annunciate{
+	background: #f6f6f6;
+	border-bottom: 3px solid #e3e4e8;
+	border-radius: 5px;
+	padding-bottom: 8px;
+}
+#main .main-r .annunciate li{
+	width: 270px;
+	border-bottom: 1px solid #e3e4e8;
+}
+#main .main-r .annunciate li h3{
+	font-size: 16px;
+	width: 250px;
+	color: #FF6600;
+	padding-left: 20px;
+	margin: 5px 0;
+}
+#main .main-r .annunciate li p{
+	line-height: 20px;
+	font-size: 12px;
+	color: #666666;
+	padding-left: 10px;
+	text-indent: 24px;
+}
+#main .main-r .annunciate li p a{
+	color: #3397da;
+}
+#main .main-r .annunciate li p a:hover{
+	text-decoration: underline;
+}
 
 /***4、链接****/
+#link{
+	width: 100%;
+}
+#link .link-cont{
+	width: 990px;
+	margin: 0 auto;
+}
+.link-cont ul{
+	width: 1100px;
+	margin: 30px 0 20px;
+}
+.link-cont li{
+	float: left;
+	width: 80px;
+	margin-right: 50px;
+}
+.link-cont li p{
+	text-align: center;
+	padding: 5px;
+}
+.link-cont li:hover a{
+	text-decoration: underline;
+	color: #FF6600;
+}
+
 /*5、底部*/
 #bottom{
 	width: 100%;
