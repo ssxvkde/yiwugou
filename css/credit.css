@@ -105,14 +105,145 @@ i,em{
 }
 #main .main-cont{
 	width: 990px;
-	margin: 0 auto;
+	margin: 10px auto;
 }
+#main .main-cont .main-sec3{
+	margin-top: 10px;
+}
+
 #main .main-l{
 	float: left;
+	width: 710px;
 }
+#main .main-l li{
+	width: 700px;
+	line-height: 34px;
+	padding-left: 10px;
+}
+#main .main-l li:hover a{
+	color: #FF6600;
+}
+#main .main-l li h3 b{
+	font-size: 18px;
+	float: left;
+	color: #fe6e2d;
+	margin-top: 5px;
+}
+#main .main-l li h3 a{
+	color: #666666;
+	font-size: 14px;
+	float: right;
+	padding: 5px 10px;
+	background: #e3e4e8;
+}
+#main .main-l li span,a{
+	display: inline-block;
+	color: #666666;
+	font-size: 14px;
+}
+#main .main-l li .name{
+	width: 140px;
+}
+#main .main-l li .deta{
+	width: 190px;
+}
+#main .main-l li .time{
+	width: 100px;
+}
+#main .main-l li .genre{
+	width: 110px;
+}
+#main .main-l li .source{
+	width: 80px;
+}
+#main .main-l li .status{
+	width: 50px;
+}
+
+/*右边*/
 #main .main-r{
 	float: right;
+	width: 270px;
 }
+#main .main-r .complain{
+	border-top: 5px solid #3397da;
+	border-bottom: 5px solid #2c81ba;
+	border-radius: 5px;
+}
+#main .main-r .complain a{
+	display: inline-block;
+	width: 270px;
+	background: #3397da;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 18px;
+}
+
+#main .main-r .search{
+	width: 268px;
+	height: 36px;
+	border: 1px solid #e3e4e8;
+	border-bottom: 5px solid #E3E4E8;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+#main .main-r .search input{
+	width: 208px;
+	padding-left: 10px;
+	height: 36px;
+	font-size: 14px;
+	border: 0;
+}
+#main .main-r .search span{
+	float: right;
+	height: 34px;
+	background: #ff6600;
+	border: 1px solid #FF6600;
+	border-radius: 3px;
+	box-shadow: 1px 4px #FF6600;
+}
+#main .main-r .search a{
+	font-size: 14px;
+	display: inline-block;
+	padding: 8px 9px;
+	color: white;
+}
+
+/*共同样式common*/
+#main .main-r .common{
+	border-radius: 5px 0 0 0;
+	background: #f0f2f5;
+	border-bottom: 3px solid #e3e4e8;
+}
+#main .main-r .common h5{
+	float: left;
+	font-size: 16px;
+	color: #ff6600;
+	padding: 10px 10px;
+}
+#main .main-r .common span{
+	float: right;
+	height: 43px;
+	width: 52px;
+	background: #e3e4e8;
+	border-radius: 0 5px 0 0;
+}
+#main .main-r .common span a{
+	font-size: 14px;
+	color: #666666;
+	display: block;
+	height: 43px;
+	width: 52px;
+	line-height: 43px;
+	text-align: center;
+}
+#main .main-r .common span a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+
 
 
 /***4、链接****/
