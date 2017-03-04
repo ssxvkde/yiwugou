@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="../css/base.css" />
 		<link rel="stylesheet" href="../css/shops.css" />
-		<script type="text/javascript" src="../jq/jquery-1.11.1.js" ></script>
-		<script type="text/javascript" src="../js/sub-navList.js" ></script>
-		<script type="text/javascript" src="../js/hover.js" ></script>
-		
-		<script type="text/javascript" src="../js/show-1.js" ></script>
+		<script type="text/javascript" src="../jq/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="../js/sub-navList.js"></script>
+		<script type="text/javascript" src="../js/hover.js"></script>
+		<script type="text/javascript" src="../js/shops-click.js"></script>
+		<!--<script type="text/javascript" src="../js/show-1.js" ></script>-->
 	</head>
-	
+
 	<body>
 		<!--1、头部-->
 		<div id="header">
@@ -174,7 +175,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!--3、主体-->
 		<div id="main">
 			<div class="main-cont">
@@ -183,7 +184,7 @@
 					<a href="../index.html"> 首页 </a> >
 					<a href="shops.html"> 商品商铺 </a>
 				</div>
-				
+
 				<!--sec2-->
 				<div class="place">
 					<span class="clearfix">
@@ -200,28 +201,32 @@
 						<a href="#">义乌物资市场</a>
 					</span>
 				</div>
-				
+
 				<!--sec3-->
 				<div class="choice clearfix">
 					<div class="choice-l clearfix">
-						<a href="#" style="margin-right: -1px;" class="active"> 商品  </a>
-						<a href="#"> 商铺  </a>
+						<a href="#" style="margin-right: -1px;" class="active show-show"> 商品 </a>
+						<a href="#" class="show-show-2"> 商铺 </a>
 					</div>
-					
+
 					<div class="choice-r clearfix">
-						<span>1/100</span>
-						<a href="#"><</a>
-							<a href="#">></a>
+						<span>1/3</span>
+						<a href="#" class="pageBack">
+							<</a>
+								<a href="#" class="pageNext">></a>
 					</div>
 				</div>
-				
+
 				<!--sec4-->
-				<div class="show clearfix">
-					<!--<div class="frame">
+				<!--商铺-->
+				<div class="show show-1">
+					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -229,8 +234,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -238,8 +245,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -247,8 +256,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -256,8 +267,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -265,8 +278,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -274,8 +289,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -283,8 +300,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -292,8 +311,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -301,8 +322,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -310,8 +333,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -319,8 +344,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -328,8 +355,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -337,8 +366,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -346,8 +377,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -355,8 +388,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -364,8 +399,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -373,8 +410,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -382,8 +421,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -391,8 +432,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -400,8 +443,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -409,8 +454,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -418,8 +465,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -427,8 +476,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
@@ -436,8 +487,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#">  义乌市吉发袜厂（JILIFA集团香港有限公司） </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：32208 </li>
 							<li> 主营：袜子全棉袜子、健康袜 </li>
 						</ul>
@@ -445,8 +498,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市振铭货架商行 </a> </li>
-							<li> 义乌国际商贸城四区85门1楼5街  </li>
+							<li>
+								<a href="#"> 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
 							<li> 商位：10180,10181 </li>
 							<li> 主营：货架、模特、五金挂钩 </li>
 						</ul>
@@ -454,8 +509,10 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 万人迷健身器材 </a> </li>
-							<li> 义乌国际商贸城三区63门4楼2街   </li>
+							<li>
+								<a href="#"> 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
 							<li> 商位：28772 </li>
 							<li> 主营：跑步机，健身机，踏步 </li>
 						</ul>
@@ -463,22 +520,990 @@
 					<div class="frame">
 						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
 						<ul>
-							<li> <a href="#"> 义乌市汇众汽车用品有限公司 </a> </li>
-							<li> 义乌国际商贸城五区101门4楼1街  </li>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
 							<li> 商位：68239,68238,68240,68241 </li>
 							<li> 主营：汽车用品，HID疝气 </li>
 						</ul>
-					</div>-->
+					</div>
+				</div>
+
+				<div class="show show-1" style="display: none;">
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">2 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">2 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="show show-1" style="display: none;">
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">3 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 3万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+				</div>
+
+				<!--商铺结束-->
+
+				<!--商品-->
+				<div class="show show-2" style="display: none;">
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">2-2 万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#">2-2 义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2 义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show1.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市吉发袜厂（JILIFA集团香港有限公司） </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：32208 </li>
+							<li> 主营：袜子全棉袜子、健康袜 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show2.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市振铭货架商行 </a>
+							</li>
+							<li> 义乌国际商贸城四区85门1楼5街 </li>
+							<li> 商位：10180,10181 </li>
+							<li> 主营：货架、模特、五金挂钩 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show3.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2万人迷健身器材 </a>
+							</li>
+							<li> 义乌国际商贸城三区63门4楼2街 </li>
+							<li> 商位：28772 </li>
+							<li> 主营：跑步机，健身机，踏步 </li>
+						</ul>
+					</div>
+					<div class="frame">
+						<span> <a href="#"> <img src="../img/show4.jpg" /> </a> </span>
+						<ul>
+							<li>
+								<a href="#"> 2-2义乌市汇众汽车用品有限公司 </a>
+							</li>
+							<li> 义乌国际商贸城五区101门4楼1街 </li>
+							<li> 商位：68239,68238,68240,68241 </li>
+							<li> 主营：汽车用品，HID疝气 </li>
+						</ul>
+					</div>
+				</div>
+				<!--商品-->
+
+				<!--sec5-->
+				<div class="page clearfix">
+					<ul>
+						<li class="back pageBack">
+							<a href="#">上一页</a>
+						</li>
+						<li class="pageNum">
+							<a href="#" class="active">1</a>
+						</li>
+						<li class="pageNum">
+							<a href="#">2</a>
+						</li>
+						<li class="pageNum">
+							<a href="#">3</a>
+						</li>
+						<li class="next pageNext">
+							<a href="#">下一页</a>
+						</li>
+						<li style="border: 0;" class="go">
+							<span>  
+								到第<input type="text" placeholder="1"/>页
+								<a href="#">确定</a>
+							</span>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		
-		
+
 		<!--4、底部-->
 		<div id="bottom">
 			<div class="bottom-cont">
-				<p>© 2016 Yiwugou.com 版权所有 增值电信业务经营许可证:<a href="#">浙B2-20110340</a></p>
+				<p>© 2016 Yiwugou.com 版权所有 增值电信业务经营许可证:
+					<a href="#">浙B2-20110340</a>
+				</p>
 			</div>
 		</div>
 	</body>
+
 </html>
