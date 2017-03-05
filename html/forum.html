@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>论坛</title>
+		<link rel="stylesheet" href="../css/forum.css" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<script type="text/javascript" src="../jq/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="../js/hover.js"></script>
+		<script type="text/javascript" src="../js/sub-navList.js"></script>
+		<script type="text/javascript" src="../js/click.js"></script>
+		<script type="text/javascript" src="../js/forum-banner.js" ></script>
+	</head>
+
+	<body>
+		<!--1、头部-->
+		<div id="header">
+			<div class="header-cont" style="width: 960px;">
+				<div class="header-l">
+					<ul>
+						<li class="liBg">
+							<a href="#">手机版</a>| </li>
+						<li>
+							<a href="credit.html">市场信用</a>| </li>
+						<li style="padding-left: 10px;"> 义乌 <span> <img src="../img/header-2.png" /> </span> 16~4°C </li>
+					</ul>
+				</div>
+
+				<div class="header-r">
+					<ul>
+						<li class="shop">
+							<a href="#">购物车</a>
+						</li>
+						<li>
+							<a href="#">用户中心</a>
+						</li>
+						<li class="serve">
+							<a href="#">客户服务</a>
+
+							<div class="help">
+								<ul>
+									<li>
+										<h3>
+											<a href="help.html">帮助中心</a>
+											<a href="#">意见反馈</a>
+										</h3>
+									</li>
+									<li>
+										<div class="call">
+											<span></span>
+										</div>
+										<p>0759-81530000</p>
+										<p>(8:30--22:00)</p>
+									</li>
+									<li class="emali">kefu@yiwugou.com</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="language">
+								<ul>
+									<li>
+										<a href="#">中文</a>
+									</li>
+									<li>
+										<a href="#">English</a>
+									</li>
+									<li>
+										<a href="#">Russian</a>
+									</li>
+									<li>
+										<a href="#">Spanish</a>
+									</li>
+									<li>
+										<a href="#">French</a>
+									</li>
+								</ul>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--2、搜索-->
+		<div id="search" style="background: #fcfdfe;">
+			<div class="search-cont" style="width: 960px;">
+				<div class="log">
+					<a href="#"> <img src="../img/logo.png" /> </a>
+				</div>
+
+				<div class="sction4">
+					<ul>
+						<li class="logIn">
+							<a href="#"> <span></span> 登录</a>
+						</li>
+						<li class="register">|
+							<a href="#">注册</a>
+						</li>
+						<li class="rank">
+							<a href="ranking.html"> <span></span>排行榜</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--3、导航-->
+		<div id="nav" style="background: #fcfdfe;">
+			<div class="nav-cont" style="width: 960px;">
+				<ul>
+					<li class="home">
+						<a href="../index.html">首页</a>
+					</li>
+					<li class="commodity">
+						<a href="shops.html">商铺商品</a> <span></span>
+
+						<!--分类菜单-->
+						<ul class="menu">
+							<!--<li>
+								<h3>义乌国际商贸城一区 <b> > </b></h3>
+								<a href="#">玩具</a>
+								<a href="#">珠宝首饰</a>
+								<a href="#">仿真花</a>
+								<a href="#">装饰工艺</a>
+								<a href="#">相框</a>
+							</li>
+							<li>
+								<h3>义乌国际商贸城一区东 <b> > </b></h3>
+								<a href="#">饰品配件</a>
+								<a href="#">饰品</a>
+
+							</li>-->
+						</ul>
+
+						<!--二级菜单-->
+						<div class="secMenu">
+							<!--<ul class="goods-list">
+								<li>
+									<p class="title">一层</p>
+									<span class="shops">
+										<a href="#">玩具</a>
+										<a href="#">花类</a>
+										<a href="#">花类配件</a>
+										<a href="#">东埔房</a>
+									</span>
+								</li>
+								<li>
+									<p class="title">二层</p>
+									<span class="shops">
+										<a href="#">饰品配件</a>
+										<a href="#">饰品</a>
+									</span>
+								</li>
+							</ul>-->
+						</div>
+					</li>
+					<li class="nav-li">
+						<a href="#">巨便宜</a>
+					</li>
+					<li class="nav-li">
+						<a href="forum.html">论坛</a>
+					</li>
+				</ul>
+
+				<div class="nav-r">
+					<ul>
+						<li>
+							<a href="#">众筹</a>
+						</li>
+						<li>
+							<a href="#">爱进口</a>
+						</li>
+						<li>
+							<a href="#">招聘</a>
+						</li>
+						<li class="buy">
+							<a href="#">采购</a>
+							<span></span>
+							<ul class="buy-cont">
+								<li>
+									<a href="#">阳光采购</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">投诉经理</a>
+						</li>
+						<li>
+							<a href="#">经侦</a>
+						</li>
+						<li>
+							<a href="#">转租转让</a>
+						</li>
+						<li>
+							<a href="#">展会</a>
+						</li>
+						<li>
+							<a href="#">市场地图</a>
+						</li>
+						<li class="trade">
+							<a href="#">外贸服务</a>
+							<span></span>
+							<ul class="trade-cont">
+								<li>
+									<a href="#">服务平台</a>
+								</li>
+								<li>
+									<a href="#">联网平台</a>
+								</li>
+								<li>
+									<a href="#">进出口公司</a>
+								</li>
+								<li>
+									<a href="#">翻译</a>
+								</li>
+								<li>
+									<a href="#">国际货运</a>
+								</li>
+							</ul>
+						</li>
+						<li class="shopServe">
+							<a href="#">商铺服务</a>
+							<span></span>
+							<ul class="shopServe-cont">
+								<li>
+									<a href="#">泊车位办理</a>
+								</li>
+								<li>
+									<a href="#">金融服务</a>
+								</li>
+								<li>
+									<a href="#">第三方服务</a>
+								</li>
+								<li>
+									<a href="#">商铺代运营</a>
+								</li>
+								<li>
+									<a href="#">义乌购执照</a>
+								</li>
+								<li>
+									<a href="#">直通物流</a>
+								</li>
+								<li>
+									<a href="#">商标注册</a>
+								</li>
+								<li>
+									<a href="#">更多>></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--4、信息-->
+		<div id="message">
+			<div class="message-cont">
+				<div class="imgShow">
+					<a href="#"> <img src="../img/forum-1.jpg" /> </a>
+					<a href="#"> <img src="../img/forum-2.jpg" /> </a>
+				</div>
+
+				<div class="hot clearfix">
+					<div class="hot-l clearfix">
+						<input type="text" placeholder="请输入搜索内容" />
+						<div class="info">
+							<span><a href="#">帖子</a></span>
+							<ul class="clearfix">
+								<li>
+									<a href="#">文章</a>
+								</li>
+								<li>
+									<a href="#">帖子</a>
+								</li>
+								<li>
+									<a href="#">用户</a>
+								</li>
+							</ul>
+						</div>
+						<i> <a href="#"></a> </i>
+						<ul>
+							<strong>热搜:</strong>
+							<li>
+								<a href="#">义乌购</a>
+							</li>
+							<li>
+								<a href="#">快递通</a>
+							</li>
+							<li>
+								<a href="#">十大</a>
+							</li>
+							<li>
+								<a href="#">商标注册</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="hot-r">
+						<a href="#" class="quick">快速导航</a>
+
+						<div class="quick-cont">
+							<div class="cont-1">
+								<p>请
+									<a href="#">登录</a>后使用快捷导航</p>
+								<p>没有账号？立即
+									<a href="#">注册</a>
+								</p>
+							</div>
+							<div class="cont-2">
+								<em>搜索板块:</em><input type="text" />
+							</div>
+							<div class="cont-3">
+								<div class="sec-1 sec">
+									<ul>
+										<h3>所有板块</h3>
+										<li>
+											<p class="title">
+												<a href="#">商业资讯</a>
+											</p>
+											<p>
+												<a href="#">市场公告</a>
+											</p>
+											<p>
+												<a href="#">视频专区</a>
+											</p>
+											<p>
+												<a href="#">市场动态</a>
+											</p>
+											<p>
+												<a href="#">行业资讯</a>
+											</p>
+											<p>
+												<a href="#">新奇特商品</a>
+											</p>
+											<p>
+												<a href="#">义乌购大讲堂</a>
+											</p>
+											<p>
+												<a href="#">拍卖公告</a>
+											</p>
+										</li>
+										<p class="title">
+											<a href="#">经营户乐园</a>
+										</p>
+										<p>
+											<a href="#">官方活动</a>
+										</p>
+										<p>
+											<a href="#">视频专区</a>
+										</p>
+										<p>
+											<a href="#">市场动态</a>
+										</p>
+										<p>
+											<a href="#">行业资讯</a>
+										</p>
+										<p>
+											<a href="#">新奇特商品</a>
+										</p>
+										<p>
+											<a href="#">义乌购大讲堂</a>
+										</p>
+										<p>
+											<a href="#">拍卖公告</a>
+										</p>
+										<li>
+										</li>
+										<p class="title">
+											<a href="#">采购俱乐部</a>
+										</p>
+										<p>
+											<a href="#">官方活动</a>
+										</p>
+										<p>
+											<a href="#">视频专区</a>
+										</p>
+										<p>
+											<a href="#">市场动态</a>
+										</p>
+										<p>
+											<a href="#">行业资讯</a>
+										</p>
+										<p>
+											<a href="#">新奇特商品</a>
+										</p>
+										<p>
+											<a href="#">义乌购大讲堂</a>
+										</p>
+										<p>
+											<a href="#">拍卖公告</a>
+										</p>
+										<li>
+										</li>
+										<p class="title">
+											<a href="#">帮助中心</a>
+										</p>
+										<p>
+											<a href="#">官方活动</a>
+										</p>
+										<p>
+											<a href="#">视频专区</a>
+										</p>
+										<p>
+											<a href="#">市场动态</a>
+										</p>
+										<p>
+											<a href="#">行业资讯</a>
+										</p>
+										<p>
+											<a href="#">新奇特商品</a>
+										</p>
+										<p>
+											<a href="#">义乌购大讲堂</a>
+										</p>
+										<p>
+											<a href="#">拍卖公告</a>
+										</p>
+										<li>
+										</li>
+										<p class="title">
+											<a href="#">海阔天空</a>
+										</p>
+										<p>
+											<a href="#">官方活动</a>
+										</p>
+										<p>
+											<a href="#">视频专区</a>
+										</p>
+										<p>
+											<a href="#">市场动态</a>
+										</p>
+										<p>
+											<a href="#">行业资讯</a>
+										</p>
+										<p>
+											<a href="#">新奇特商品</a>
+										</p>
+										<p>
+											<a href="#">义乌购大讲堂</a>
+										</p>
+										<p>
+											<a href="#">拍卖公告</a>
+										</p>
+										<li>
+
+										</li>
+									</ul>
+								</div>
+
+								<div class="sec-2 sec" style="margin: 0 10px;">
+									<ul>
+										<h3>最近浏览</h3>
+										<!--<li> 
+											<p><a href="#">zcx</a> </p>
+										</li>-->
+									</ul>
+								</div>
+								<div class="sec-3 sec">
+									<ul>
+										<h3>我的收藏</h3>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--5、主体-->
+		<div id="main">
+			<div class="main-cont">
+				<div class="sec1">
+					<p>
+						<span> <a href="#"></a> </span>
+						<i> > </i>
+						<a href="#"> 义乌购论坛 </a>
+					</p>
+				</div>
+				
+				<div class="sec2 clearfix">
+					<div class="sec2-l">
+						<div class="banner">
+							<ul>
+								<li style="display: block;"> 
+									<a href="#"> 
+										<img src="../img/banner-1.jpg" /> 
+										<p style="display: block;"> 2017最美老板娘。。。。。 </p>
+									</a> 
+								</li>
+								<li> 
+									<a href="#"> 
+										<img src="../img/banner-2.png" /> 
+										<p> "优选购"商家招募。。。。。 </p>
+									</a> 
+								</li>
+								<li> 
+									<a href="#"> 
+										<img src="../img/banner-3.jpg" /> 
+										<p> 义乌购"快递通"。。。。。 </p>
+									</a> 
+								</li>
+								<li> 
+									<a href="#"> 
+										<img src="../img/banner-4.gif" /> 
+										<p> 义乌购试行商铺会员制。。。 </p>
+									</a> 
+								</li>
+								
+							</ul>
+							<div class="page clearfix">
+								<p>
+									<a href="#main" class="active">1</a>
+									<a href="#main">2</a>
+									<a href="#mian">3</a>
+									<a href="#main">4</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="sec2-m"></div>
+					<div class="sec2-r"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

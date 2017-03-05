@@ -21,7 +21,6 @@ $(function(){
 	//点击上下页切换上下页
 	var index = 0;
 	var pageLength = $('.main-cont .pageNum').length;
-	console.log(pageLength)
 	var show = $('.main-cont .show');
 	$('.main-cont .pageBack').click(function(){
 //		alert('上');
