@@ -109,5 +109,14 @@ $(function(){
 			$('.zx-cont').css('display', 'none').css('z-index', '0');
 		})
 		$('.zx-cont').css('display', 'none').css('z-index', '0');
+	});
+	
+	
+	//论坛新闻显示
+	$('.newsTitle a').mouseover(function(){
+		var index = $(this).index();
+//		console.log(index);
+		$(this).addClass('active').siblings().removeClass('active');
+		$('.news-deta ul').eq(index).show().siblings().hide();
 	})
 })
