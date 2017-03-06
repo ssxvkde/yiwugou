@@ -1,0 +1,220 @@
+body,html,p,ul,li,dl,dt,dd,input,form,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+
+ul,li{
+	list-style: none;
+}
+i,em{
+	font-style: normal;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/*1、头部*/
+#header{
+	width: 100%;
+	border-bottom: 2px solid #ed6e01;
+}
+#header .header-cont{
+	width: 990px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+#header .header-cont a{
+	float: left;
+}
+#header .header-r{
+	width: 245px;
+	float: right;
+	margin-top: 15px;
+}
+#header .header-r p a{
+	float: right;
+	margin-left: 15px;
+	color: #006aaa;
+	font-size: 14px;
+}
+#header .header-r p a:hover{
+	text-decoration: underline;
+}
+#header .header-r p{
+	width: 245px;
+	float: left;
+	font-size: 12px;
+	color: #999999;
+	line-height: 20px;
+}
+
+
+/*2、主体*/
+#main{
+	width: 100%;
+}
+.main-cont{
+	width: 990px;
+	margin: 0 auto;
+}
+.main-cont img{
+	float: left;
+}
+.main-cont .login-box{
+	width: 290px;
+	float: right;
+	border: 1px solid #d9d9d9;
+	margin-top: 80px;
+	padding: 20px 0 20px 20px;
+}
+.main-cont .login-box a:hover{
+	text-decoration: underline;
+}
+.main-cont .login-box .li1{
+	width: 220px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.main-cont .login-box .li1 a{
+	font-size: 14px;
+	color: #3467ce;
+	float: right;
+}
+.main-cont .login-box .li1 .active{
+	font-size: 18px;
+	color: black;
+}
+.main-cont .login-box .li2{
+	line-height: 56px;
+	width: 240px;
+	font-size: 14px;
+}
+.main-cont .login-box .li2 input{
+	width: 200px;
+	height: 32px;
+	border: 1px solid #cccccc;
+	float: right;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.main-cont .login-box .li3{
+	width: 200px;
+	height: 40px;
+	padding-left: 40px;
+	position: relative;
+}
+.main-cont .login-box .li3 span{
+	margin-right: 30px;
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+	z-index: 999;
+}
+.main-cont .login-box .li3 span input{
+	margin-right: 3px;
+}
+.main-cont .login-box .li3 a{
+	font-size: 12px;
+}
+.main-cont .login-box .li3 p{
+	width: 240px;
+	font-size: 12px;
+}
+.main-cont .login-box .li3 div{
+	height: 20px;
+	width: 200px;
+	border: 1px solid black;
+	background: wheat;
+	padding-top: 18px;
+	position: absolute;
+	left: 38px;
+	top: 0;
+	display: none;
+}
+
+.main-cont .login-box .li4{
+	width: 200px;
+	padding-left: 40px;
+}
+.main-cont .login-box .li4 input{
+	width: 200px;
+	line-height: 36px;
+	background: #eb4f38;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+}
+.main-cont .login-box .li5{
+	margin: 30px 0 10px;
+	width: 240px;
+}
+.main-cont .login-box .li5 .aBg{
+	padding-left: 20px;
+	background: url(../img/aBg.png) no-repeat left center;
+}
+.main-cont .login-box .li5 a{
+	font-size: 14px;
+}
+
+
+.main-cont .login-box .yanzheng{
+	position: relative;
+}
+.main-cont .login-box .yanzheng a{
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	height: 30px;
+	width: 80px;
+	background: #2C81BA;
+	color: white;
+	position: absolute;
+	right: 2px;
+	top: 12px;
+}
+.main-cont .login-box .yanzheng a:hover{
+	text-decoration: none;
+	background: violet;
+}
+.main-cont .login-box .agreement p{
+	font-size: 12px;
+	width: 270px;
+}
+
+
+
+/*3、底部*/
+#bottom{
+	width: 100%;
+}
+#bottom .bottom-cont{
+	width: 950px;
+	margin: 10px auto 0;
+	border-top: 1px solid #dbdbdb;
+}
+#bottom .bottom-cont p{
+	line-height: 46px;
+	font-size: 13px;
+	text-align: center;
+	color: #444444;
+}
+#bottom .bottom-cont p a{
+	color: #444444;
+}
+#bottom .bottom-cont p a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}
